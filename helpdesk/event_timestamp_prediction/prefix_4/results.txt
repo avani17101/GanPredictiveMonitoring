@@ -1,0 +1,1159 @@
+{'tensor([[2.]]):tensor([0])tensor([4])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([4])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 21,
+ 'tensor([[6.]]):tensor([0])tensor([2])': 6,
+ 'tensor([[6.]]):tensor([0])tensor([4])': 14,
+ 'tensor([[6.]]):tensor([0])tensor([5])': 10,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 24,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 17,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 11,
+ 'tensor([[8.]]):tensor([0])tensor([2])': 3,
+ 'tensor([[8.]]):tensor([0])tensor([4])': 7,
+ 'tensor([[8.]]):tensor([0])tensor([5])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([6])': 11,
+ 'tensor([[8.]]):tensor([0])tensor([8])': 11,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 4,
+ 'tensor([[9.]]):tensor([0])tensor([2])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([4])': 6,
+ 'tensor([[9.]]):tensor([0])tensor([5])': 5,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 5,
+ 'tensor([[9.]]):tensor([0])tensor([8])': 5,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 1}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7798319327731092
+ The MAE (days) for the next event prediction is:1.379273
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.46528822, 427],
+ 'tensor([[2.]])': [12.150176, 1],
+ 'tensor([[4.]])': [1.244433, 1],
+ 'tensor([[6.]])': [2.903662, 93],
+ 'tensor([[8.]])': [6.118329, 46],
+ 'tensor([[9.]])': [2.1152236, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([8])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 18,
+ 'tensor([[6.]]):tensor([0])tensor([2])': 5,
+ 'tensor([[6.]]):tensor([0])tensor([4])': 22,
+ 'tensor([[6.]]):tensor([0])tensor([5])': 10,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 18,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 17,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 6,
+ 'tensor([[8.]]):tensor([0])tensor([2])': 5,
+ 'tensor([[8.]]):tensor([0])tensor([4])': 9,
+ 'tensor([[8.]]):tensor([0])tensor([5])': 8,
+ 'tensor([[8.]]):tensor([0])tensor([6])': 6,
+ 'tensor([[8.]]):tensor([0])tensor([8])': 12,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([2])': 4,
+ 'tensor([[9.]]):tensor([0])tensor([4])': 3,
+ 'tensor([[9.]]):tensor([0])tensor([5])': 4,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 8,
+ 'tensor([[9.]]):tensor([0])tensor([8])': 6}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7680672268907563
+ The MAE (days) for the next event prediction is:1.3727593
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.46217763, 427],
+ 'tensor([[2.]])': [12.4193125, 1],
+ 'tensor([[4.]])': [1.351033, 1],
+ 'tensor([[6.]])': [2.8623004, 93],
+ 'tensor([[8.]])': [6.188121, 46],
+ 'tensor([[9.]])': [2.0305178, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([8])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 23,
+ 'tensor([[6.]]):tensor([0])tensor([2])': 4,
+ 'tensor([[6.]]):tensor([0])tensor([4])': 11,
+ 'tensor([[6.]]):tensor([0])tensor([5])': 10,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 23,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 19,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 3,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 6,
+ 'tensor([[8.]]):tensor([0])tensor([2])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([4])': 6,
+ 'tensor([[8.]]):tensor([0])tensor([5])': 7,
+ 'tensor([[8.]]):tensor([0])tensor([6])': 18,
+ 'tensor([[8.]]):tensor([0])tensor([8])': 8,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 8,
+ 'tensor([[9.]]):tensor([0])tensor([2])': 3,
+ 'tensor([[9.]]):tensor([0])tensor([4])': 5,
+ 'tensor([[9.]]):tensor([0])tensor([5])': 3,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 3,
+ 'tensor([[9.]]):tensor([0])tensor([8])': 5}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7697478991596639
+ The MAE (days) for the next event prediction is:1.3762213
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.4706493, 427],
+ 'tensor([[2.]])': [12.462118, 1],
+ 'tensor([[4.]])': [1.3583809, 1],
+ 'tensor([[6.]])': [2.8796773, 93],
+ 'tensor([[8.]])': [6.0895405, 46],
+ 'tensor([[9.]])': [2.0790782, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([4])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 12,
+ 'tensor([[6.]]):tensor([0])tensor([2])': 5,
+ 'tensor([[6.]]):tensor([0])tensor([4])': 23,
+ 'tensor([[6.]]):tensor([0])tensor([5])': 14,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 23,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 16,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 11,
+ 'tensor([[8.]]):tensor([0])tensor([2])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([4])': 7,
+ 'tensor([[8.]]):tensor([0])tensor([5])': 7,
+ 'tensor([[8.]]):tensor([0])tensor([6])': 11,
+ 'tensor([[8.]]):tensor([0])tensor([8])': 9,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 6,
+ 'tensor([[9.]]):tensor([0])tensor([4])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 10,
+ 'tensor([[9.]]):tensor([0])tensor([8])': 8,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 1}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.773109243697479
+ The MAE (days) for the next event prediction is:1.3739821
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.45528728, 427],
+ 'tensor([[2.]])': [12.228024, 1],
+ 'tensor([[4.]])': [1.2726259, 1],
+ 'tensor([[6.]])': [2.883891, 93],
+ 'tensor([[8.]])': [6.129488, 46],
+ 'tensor([[9.]])': [2.2019513, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([8])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 17,
+ 'tensor([[6.]]):tensor([0])tensor([2])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([4])': 18,
+ 'tensor([[6.]]):tensor([0])tensor([5])': 13,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 21,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 20,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 14,
+ 'tensor([[8.]]):tensor([0])tensor([2])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([4])': 8,
+ 'tensor([[8.]]):tensor([0])tensor([5])': 5,
+ 'tensor([[8.]]):tensor([0])tensor([6])': 11,
+ 'tensor([[8.]]):tensor([0])tensor([8])': 7,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 6,
+ 'tensor([[9.]]):tensor([0])tensor([2])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([4])': 3,
+ 'tensor([[9.]]):tensor([0])tensor([5])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 7,
+ 'tensor([[9.]]):tensor([0])tensor([8])': 7}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7647058823529411
+ The MAE (days) for the next event prediction is:1.3749955
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.46651977, 427],
+ 'tensor([[2.]])': [12.465139, 1],
+ 'tensor([[4.]])': [0.5436268, 1],
+ 'tensor([[6.]])': [2.8809965, 93],
+ 'tensor([[8.]])': [6.0706906, 46],
+ 'tensor([[9.]])': [2.175005, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([5])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 13,
+ 'tensor([[6.]]):tensor([0])tensor([2])': 5,
+ 'tensor([[6.]]):tensor([0])tensor([4])': 16,
+ 'tensor([[6.]]):tensor([0])tensor([5])': 7,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 20,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 32,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 9,
+ 'tensor([[8.]]):tensor([0])tensor([2])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([4])': 3,
+ 'tensor([[8.]]):tensor([0])tensor([5])': 7,
+ 'tensor([[8.]]):tensor([0])tensor([6])': 13,
+ 'tensor([[8.]]):tensor([0])tensor([8])': 12,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([2])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([4])': 10,
+ 'tensor([[9.]]):tensor([0])tensor([5])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 10,
+ 'tensor([[9.]]):tensor([0])tensor([8])': 2}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7714285714285715
+ The MAE (days) for the next event prediction is:1.3568071
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.4605104, 427],
+ 'tensor([[2.]])': [12.295006, 1],
+ 'tensor([[4.]])': [0.68377423, 1],
+ 'tensor([[6.]])': [2.8292716, 93],
+ 'tensor([[8.]])': [6.047647, 46],
+ 'tensor([[9.]])': [2.0877607, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 46,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 10,
+ 'tensor([[6.]]):tensor([0])tensor([3])': 13,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 6,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 16,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 21,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 6,
+ 'tensor([[8.]]):tensor([0])tensor([3])': 6,
+ 'tensor([[8.]]):tensor([0])tensor([6])': 4,
+ 'tensor([[8.]]):tensor([0])tensor([7])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([8])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 7,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 14,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 4,
+ 'tensor([[9.]]):tensor([0])tensor([3])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 7}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7411764705882353
+ The MAE (days) for the next event prediction is:1.1471301
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.1953626, 427],
+ 'tensor([[2.]])': [13.023716, 1],
+ 'tensor([[4.]])': [0.100235544, 1],
+ 'tensor([[6.]])': [2.5603428, 93],
+ 'tensor([[8.]])': [6.465298, 46],
+ 'tensor([[9.]])': [1.8697416, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([1])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 41,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 13,
+ 'tensor([[6.]]):tensor([0])tensor([3])': 16,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 3,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 20,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 24,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 4,
+ 'tensor([[8.]]):tensor([0])tensor([3])': 7,
+ 'tensor([[8.]]):tensor([0])tensor([7])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([8])': 3,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 7,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 11,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 5,
+ 'tensor([[9.]]):tensor([0])tensor([3])': 5,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 3,
+ 'tensor([[9.]]):tensor([0])tensor([8])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 2}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7310924369747899
+ The MAE (days) for the next event prediction is:1.1584365
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.20930691, 427],
+ 'tensor([[2.]])': [13.168294, 1],
+ 'tensor([[4.]])': [0.09210674, 1],
+ 'tensor([[6.]])': [2.5603657, 93],
+ 'tensor([[8.]])': [6.4859977, 46],
+ 'tensor([[9.]])': [1.857974, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 36,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 16,
+ 'tensor([[6.]]):tensor([0])tensor([3])': 21,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 3,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 15,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 24,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 6,
+ 'tensor([[8.]]):tensor([0])tensor([3])': 5,
+ 'tensor([[8.]]):tensor([0])tensor([8])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 9,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 8,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 6,
+ 'tensor([[9.]]):tensor([0])tensor([3])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 3,
+ 'tensor([[9.]]):tensor([0])tensor([8])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 8}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7378151260504202
+ The MAE (days) for the next event prediction is:1.1592965
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.21436523, 427],
+ 'tensor([[2.]])': [13.31742, 1],
+ 'tensor([[4.]])': [0.45702383, 1],
+ 'tensor([[6.]])': [2.5631223, 93],
+ 'tensor([[8.]])': [6.450395, 46],
+ 'tensor([[9.]])': [1.829055, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 35,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 18,
+ 'tensor([[6.]]):tensor([0])tensor([3])': 16,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 3,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 19,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 16,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 7,
+ 'tensor([[8.]]):tensor([0])tensor([3])': 15,
+ 'tensor([[8.]]):tensor([0])tensor([6])': 3,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 5,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 16,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 4,
+ 'tensor([[9.]]):tensor([0])tensor([3])': 4,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 3}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7277310924369748
+ The MAE (days) for the next event prediction is:1.1399895
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.19789316, 427],
+ 'tensor([[2.]])': [13.100881, 1],
+ 'tensor([[4.]])': [0.29267472, 1],
+ 'tensor([[6.]])': [2.5260904, 93],
+ 'tensor([[8.]])': [6.4386187, 46],
+ 'tensor([[9.]])': [1.8258134, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([1])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 35,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 14,
+ 'tensor([[6.]]):tensor([0])tensor([3])': 16,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 5,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 3,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 19,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 17,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 5,
+ 'tensor([[8.]]):tensor([0])tensor([3])': 7,
+ 'tensor([[8.]]):tensor([0])tensor([6])': 6,
+ 'tensor([[8.]]):tensor([0])tensor([8])': 3,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 8,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 5,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 6,
+ 'tensor([[9.]]):tensor([0])tensor([3])': 8,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 3,
+ 'tensor([[9.]]):tensor([0])tensor([8])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 4}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7378151260504202
+ The MAE (days) for the next event prediction is:1.1582712
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.20671168, 427],
+ 'tensor([[2.]])': [13.282482, 1],
+ 'tensor([[4.]])': [0.36854193, 1],
+ 'tensor([[6.]])': [2.5525, 93],
+ 'tensor([[8.]])': [6.509033, 46],
+ 'tensor([[9.]])': [1.8687546, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([3])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 38,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 17,
+ 'tensor([[6.]]):tensor([0])tensor([3])': 15,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 6,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 16,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 16,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 9,
+ 'tensor([[8.]]):tensor([0])tensor([3])': 13,
+ 'tensor([[8.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([8])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 6,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 9,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([3])': 7,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 8}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7428571428571429
+ The MAE (days) for the next event prediction is:1.1510768
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.2034565, 427],
+ 'tensor([[2.]])': [12.788411, 1],
+ 'tensor([[4.]])': [0.063432366, 1],
+ 'tensor([[6.]])': [2.5629196, 93],
+ 'tensor([[8.]])': [6.458635, 46],
+ 'tensor([[9.]])': [1.8412668, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([1])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([7])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 42,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 15,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 35,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 20,
+ 'tensor([[8.]]):tensor([0])tensor([7])': 8,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 18,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 7,
+ 'tensor([[9.]]):tensor([0])tensor([5])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([7])': 6,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 13}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7411764705882353
+ The MAE (days) for the next event prediction is:1.324993
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.43790287, 427],
+ 'tensor([[2.]])': [13.125389, 1],
+ 'tensor([[4.]])': [1.0003734, 1],
+ 'tensor([[6.]])': [2.7054932, 93],
+ 'tensor([[8.]])': [6.2197366, 46],
+ 'tensor([[9.]])': [1.8348786, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([1])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([1])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 35,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 20,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 38,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 15,
+ 'tensor([[8.]]):tensor([0])tensor([7])': 14,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 17,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 11,
+ 'tensor([[9.]]):tensor([0])tensor([7])': 5,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 10}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7344537815126051
+ The MAE (days) for the next event prediction is:1.3245629
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.41790184, 427],
+ 'tensor([[2.]])': [12.378563, 1],
+ 'tensor([[4.]])': [0.95963234, 1],
+ 'tensor([[6.]])': [2.7380211, 93],
+ 'tensor([[8.]])': [6.2318273, 46],
+ 'tensor([[9.]])': [2.038246, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([7])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 28,
+ 'tensor([[6.]]):tensor([0])tensor([2])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 23,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 41,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 26,
+ 'tensor([[8.]]):tensor([0])tensor([7])': 8,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 12,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 10,
+ 'tensor([[9.]]):tensor([0])tensor([7])': 6,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 11}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7361344537815127
+ The MAE (days) for the next event prediction is:1.3231051
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.41664147, 427],
+ 'tensor([[2.]])': [12.184772, 1],
+ 'tensor([[4.]])': [0.21040261, 1],
+ 'tensor([[6.]])': [2.718263, 93],
+ 'tensor([[8.]])': [6.290919, 46],
+ 'tensor([[9.]])': [2.028358, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([1])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 34,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 17,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 42,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 20,
+ 'tensor([[8.]]):tensor([0])tensor([7])': 6,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 20,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 6,
+ 'tensor([[9.]]):tensor([0])tensor([7])': 9,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 12}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7378151260504202
+ The MAE (days) for the next event prediction is:1.3370043
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.42996424, 427],
+ 'tensor([[2.]])': [12.351356, 1],
+ 'tensor([[4.]])': [0.9291982, 1],
+ 'tensor([[6.]])': [2.733103, 93],
+ 'tensor([[8.]])': [6.266395, 46],
+ 'tensor([[9.]])': [2.0818374, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([7])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 35,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 22,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 36,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 17,
+ 'tensor([[8.]]):tensor([0])tensor([7])': 13,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 15,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 9,
+ 'tensor([[9.]]):tensor([0])tensor([7])': 7,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 11}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7361344537815127
+ The MAE (days) for the next event prediction is:1.3382226
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.41934055, 427],
+ 'tensor([[2.]])': [12.439702, 1],
+ 'tensor([[4.]])': [1.0303329, 1],
+ 'tensor([[6.]])': [2.7609847, 93],
+ 'tensor([[8.]])': [6.345817, 46],
+ 'tensor([[9.]])': [2.0383213, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([1])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 40,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 14,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 39,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 21,
+ 'tensor([[8.]]):tensor([0])tensor([7])': 14,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 11,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 9,
+ 'tensor([[9.]]):tensor([0])tensor([7])': 6,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 12}
+Turth: first prediction, second prediction
+total number of predictions:595,427
+ The accuracy of the model with the most probable event:0.7176470588235294
+ The accuracy of the model with the 2 most probable events:0.7378151260504202
+ The MAE (days) for the next event prediction is:1.3361529
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.71764706 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The recall per activity names:[1. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ The F1 score per activity names:[0.83561644 0.         0.         0.         0.         0.         0.         0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.5150173010380623,0.7176470588235294,0.5996776792908943
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.0, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.42453772, 427],
+ 'tensor([[2.]])': [13.204594, 1],
+ 'tensor([[4.]])': [1.073218, 1],
+ 'tensor([[6.]])': [2.783978, 93],
+ 'tensor([[8.]])': [6.1673546, 46],
+ 'tensor([[9.]])': [2.1054595, 27]}
+-----------------------------------------------------------------------
+{'tensor([[0.]]):tensor([6])tensor([2])': 1,
+ 'tensor([[0.]]):tensor([6])tensor([3])': 2,
+ 'tensor([[0.]]):tensor([6])tensor([5])': 1,
+ 'tensor([[0.]]):tensor([6])tensor([6])': 1,
+ 'tensor([[0.]]):tensor([6])tensor([7])': 2,
+ 'tensor([[0.]]):tensor([6])tensor([8])': 3,
+ 'tensor([[0.]]):tensor([6])tensor([9])': 1,
+ 'tensor([[2.]]):tensor([6])tensor([6])': 1,
+ 'tensor([[4.]]):tensor([6])tensor([5])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([2])': 4,
+ 'tensor([[6.]]):tensor([0])tensor([3])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 3,
+ 'tensor([[6.]]):tensor([8])tensor([0])': 1,
+ 'tensor([[6.]]):tensor([8])tensor([1])': 5,
+ 'tensor([[6.]]):tensor([8])tensor([2])': 1,
+ 'tensor([[6.]]):tensor([8])tensor([6])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 4,
+ 'tensor([[8.]]):tensor([0])tensor([3])': 3,
+ 'tensor([[8.]]):tensor([0])tensor([7])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[8.]]):tensor([6])tensor([8])': 3,
+ 'tensor([[8.]]):tensor([6])tensor([9])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([7])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([8])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[9.]]):tensor([6])tensor([1])': 3,
+ 'tensor([[9.]]):tensor([6])tensor([2])': 1,
+ 'tensor([[9.]]):tensor([6])tensor([3])': 4,
+ 'tensor([[9.]]):tensor([6])tensor([6])': 5,
+ 'tensor([[9.]]):tensor([6])tensor([7])': 1,
+ 'tensor([[9.]]):tensor([6])tensor([8])': 6,
+ 'tensor([[9.]]):tensor([8])tensor([1])': 1}
+Turth: first prediction, second prediction
+total number of predictions:595,518
+ The accuracy of the model with the most probable event:0.8705882352941177
+ The accuracy of the model with the 2 most probable events:0.8823529411764706
+ The MAE (days) for the next event prediction is:0.9173115
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.93483146 0.         0.         0.         0.         0.         0.64814815 0.         0.76190476 0.        ]
+ The recall per activity names:[0.97423888 0.         0.         0.         0.         0.         0.75268817 0.         0.69565217 0.        ]
+ The F1 score per activity names:[0.95412844 0.         0.         0.         0.         0.         0.69651741 0.         0.72727273 0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.8310897992155664,0.8705882352941177,0.8498210233516432
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [0.9742388758782201, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.7526881720430108, 93],
+ 'tensor([[8.]])': [0.6956521739130435, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.039715827, 427],
+ 'tensor([[2.]])': [13.046797, 1],
+ 'tensor([[4.]])': [2.1575096, 1],
+ 'tensor([[6.]])': [2.126576, 93],
+ 'tensor([[8.]])': [5.9571137, 46],
+ 'tensor([[9.]])': [1.5495797, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 6,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 6,
+ 'tensor([[6.]]):tensor([0])tensor([2])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([3])': 3,
+ 'tensor([[6.]]):tensor([0])tensor([4])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([5])': 5,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 6,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 3,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 3,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([2])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([3])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([7])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[8.]]):tensor([6])tensor([0])': 8,
+ 'tensor([[8.]]):tensor([6])tensor([1])': 12,
+ 'tensor([[8.]]):tensor([6])tensor([2])': 1,
+ 'tensor([[8.]]):tensor([6])tensor([5])': 2,
+ 'tensor([[8.]]):tensor([6])tensor([6])': 10,
+ 'tensor([[8.]]):tensor([6])tensor([7])': 1,
+ 'tensor([[8.]]):tensor([6])tensor([8])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([4])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([5])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[9.]]):tensor([6])tensor([0])': 9,
+ 'tensor([[9.]]):tensor([6])tensor([1])': 5,
+ 'tensor([[9.]]):tensor([6])tensor([5])': 4,
+ 'tensor([[9.]]):tensor([6])tensor([7])': 3,
+ 'tensor([[9.]]):tensor([6])tensor([8])': 1}
+Turth: first prediction, second prediction
+total number of predictions:595,488
+ The accuracy of the model with the most probable event:0.8201680672268907
+ The accuracy of the model with the 2 most probable events:0.8352941176470589
+ The MAE (days) for the next event prediction is:1.1353981
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.89705882 0.         0.         0.         0.         0.         0.51260504 0.         0.         0.        ]
+ The recall per activity names:[1.         0.         0.         0.         0.         0.         0.65591398 0.         0.         0.        ]
+ The F1 score per activity names:[0.94573643 0.         0.         0.         0.         0.         0.5754717  0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.7238930866464233,0.8201680672268907,0.7686526475443184
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.6559139784946236, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.15312174, 427],
+ 'tensor([[2.]])': [13.066196, 1],
+ 'tensor([[4.]])': [0.019164681, 1],
+ 'tensor([[6.]])': [2.9098182, 93],
+ 'tensor([[8.]])': [5.807383, 46],
+ 'tensor([[9.]])': [2.1978076, 27]}
+-----------------------------------------------------------------------
+{'tensor([[0.]]):tensor([6])tensor([1])': 1,
+ 'tensor([[0.]]):tensor([6])tensor([3])': 2,
+ 'tensor([[0.]]):tensor([6])tensor([6])': 3,
+ 'tensor([[0.]]):tensor([6])tensor([7])': 2,
+ 'tensor([[0.]]):tensor([6])tensor([8])': 3,
+ 'tensor([[0.]]):tensor([6])tensor([9])': 1,
+ 'tensor([[2.]]):tensor([6])tensor([3])': 1,
+ 'tensor([[4.]]):tensor([6])tensor([6])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 3,
+ 'tensor([[6.]]):tensor([0])tensor([3])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([4])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 3,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 3,
+ 'tensor([[6.]]):tensor([8])tensor([0])': 1,
+ 'tensor([[6.]]):tensor([8])tensor([1])': 5,
+ 'tensor([[6.]]):tensor([8])tensor([2])': 2,
+ 'tensor([[6.]]):tensor([8])tensor([8])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 3,
+ 'tensor([[8.]]):tensor([0])tensor([4])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([8])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[8.]]):tensor([6])tensor([0])': 3,
+ 'tensor([[8.]]):tensor([6])tensor([1])': 2,
+ 'tensor([[8.]]):tensor([6])tensor([6])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([7])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([8])': 2,
+ 'tensor([[9.]]):tensor([6])tensor([2])': 4,
+ 'tensor([[9.]]):tensor([6])tensor([3])': 7,
+ 'tensor([[9.]]):tensor([6])tensor([5])': 1,
+ 'tensor([[9.]]):tensor([6])tensor([6])': 4,
+ 'tensor([[9.]]):tensor([6])tensor([8])': 2,
+ 'tensor([[9.]]):tensor([6])tensor([9])': 2,
+ 'tensor([[9.]]):tensor([8])tensor([1])': 1}
+Turth: first prediction, second prediction
+total number of predictions:595,514
+ The accuracy of the model with the most probable event:0.8638655462184874
+ The accuracy of the model with the 2 most probable events:0.8739495798319328
+ The MAE (days) for the next event prediction is:0.92477506
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.93258427 0.         0.         0.         0.         0.         0.62616822 0.         0.74418605 0.        ]
+ The recall per activity names:[0.97189696 0.         0.         0.         0.         0.         0.72043011 0.         0.69565217 0.        ]
+ The F1 score per activity names:[0.95183486 0.         0.         0.         0.         0.         0.67       0.         0.71910112 0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.8246717414208662,0.8638655462184874,0.8433985511326477
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [0.9718969555035128, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.7204301075268817, 93],
+ 'tensor([[8.]])': [0.6956521739130435, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.039114494, 427],
+ 'tensor([[2.]])': [13.091024, 1],
+ 'tensor([[4.]])': [2.3671908, 1],
+ 'tensor([[6.]])': [2.0985456, 93],
+ 'tensor([[8.]])': [6.098114, 46],
+ 'tensor([[9.]])': [1.5704833, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([7])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([0])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 6,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 7,
+ 'tensor([[6.]]):tensor([0])tensor([2])': 5,
+ 'tensor([[6.]]):tensor([0])tensor([4])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([5])': 3,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 3,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 3,
+ 'tensor([[8.]]):tensor([0])tensor([5])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([7])': 3,
+ 'tensor([[8.]]):tensor([6])tensor([0])': 10,
+ 'tensor([[8.]]):tensor([6])tensor([1])': 5,
+ 'tensor([[8.]]):tensor([6])tensor([3])': 1,
+ 'tensor([[8.]]):tensor([6])tensor([5])': 3,
+ 'tensor([[8.]]):tensor([6])tensor([6])': 7,
+ 'tensor([[8.]]):tensor([6])tensor([7])': 4,
+ 'tensor([[8.]]):tensor([6])tensor([8])': 3,
+ 'tensor([[8.]]):tensor([6])tensor([9])': 3,
+ 'tensor([[9.]]):tensor([0])tensor([0])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([2])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([3])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[9.]]):tensor([6])tensor([0])': 3,
+ 'tensor([[9.]]):tensor([6])tensor([1])': 5,
+ 'tensor([[9.]]):tensor([6])tensor([2])': 1,
+ 'tensor([[9.]]):tensor([6])tensor([5])': 2,
+ 'tensor([[9.]]):tensor([6])tensor([6])': 5,
+ 'tensor([[9.]]):tensor([6])tensor([7])': 1,
+ 'tensor([[9.]]):tensor([6])tensor([9])': 4}
+Turth: first prediction, second prediction
+total number of predictions:595,489
+ The accuracy of the model with the most probable event:0.8218487394957983
+ The accuracy of the model with the 2 most probable events:0.838655462184874
+ The MAE (days) for the next event prediction is:1.1195769
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.89705882 0.         0.         0.         0.         0.         0.5210084  0.         0.         0.        ]
+ The recall per activity names:[1.         0.         0.         0.         0.         0.         0.66666667 0.         0.         0.        ]
+ The F1 score per activity names:[0.94573643 0.         0.         0.         0.         0.         0.58490566 0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.7252065532095192,0.8218487394957983,0.7701271996293033
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.6666666666666666, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.14712328, 427],
+ 'tensor([[2.]])': [13.101616, 1],
+ 'tensor([[4.]])': [0.5153017, 1],
+ 'tensor([[6.]])': [2.8007846, 93],
+ 'tensor([[8.]])': [5.881258, 46],
+ 'tensor([[9.]])': [2.1740324, 27]}
+-----------------------------------------------------------------------
+{'tensor([[0.]]):tensor([6])tensor([1])': 1,
+ 'tensor([[0.]]):tensor([6])tensor([2])': 2,
+ 'tensor([[0.]]):tensor([6])tensor([3])': 1,
+ 'tensor([[0.]]):tensor([6])tensor([5])': 1,
+ 'tensor([[0.]]):tensor([6])tensor([6])': 5,
+ 'tensor([[0.]]):tensor([6])tensor([7])': 1,
+ 'tensor([[0.]]):tensor([6])tensor([8])': 1,
+ 'tensor([[0.]]):tensor([6])tensor([9])': 3,
+ 'tensor([[2.]]):tensor([6])tensor([3])': 1,
+ 'tensor([[4.]]):tensor([6])tensor([0])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([2])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([4])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([5])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 2,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 4,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([9])': 2,
+ 'tensor([[6.]]):tensor([8])tensor([0])': 1,
+ 'tensor([[6.]]):tensor([8])tensor([1])': 6,
+ 'tensor([[6.]]):tensor([8])tensor([2])': 1,
+ 'tensor([[6.]]):tensor([8])tensor([8])': 1,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([3])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([8])': 2,
+ 'tensor([[8.]]):tensor([6])tensor([2])': 1,
+ 'tensor([[8.]]):tensor([6])tensor([3])': 1,
+ 'tensor([[8.]]):tensor([6])tensor([6])': 1,
+ 'tensor([[8.]]):tensor([6])tensor([9])': 3,
+ 'tensor([[9.]]):tensor([0])tensor([3])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([4])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 2,
+ 'tensor([[9.]]):tensor([0])tensor([8])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([9])': 1,
+ 'tensor([[9.]]):tensor([6])tensor([1])': 1,
+ 'tensor([[9.]]):tensor([6])tensor([2])': 1,
+ 'tensor([[9.]]):tensor([6])tensor([3])': 5,
+ 'tensor([[9.]]):tensor([6])tensor([5])': 1,
+ 'tensor([[9.]]):tensor([6])tensor([6])': 4,
+ 'tensor([[9.]]):tensor([6])tensor([7])': 3,
+ 'tensor([[9.]]):tensor([6])tensor([8])': 3,
+ 'tensor([[9.]]):tensor([6])tensor([9])': 2,
+ 'tensor([[9.]]):tensor([8])tensor([1])': 1}
+Turth: first prediction, second prediction
+total number of predictions:595,514
+ The accuracy of the model with the most probable event:0.8638655462184874
+ The accuracy of the model with the 2 most probable events:0.8756302521008403
+ The MAE (days) for the next event prediction is:0.9199585
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.93636364 0.         0.         0.         0.         0.         0.61946903 0.         0.76190476 0.        ]
+ The recall per activity names:[0.96487119 0.         0.         0.         0.         0.         0.75268817 0.         0.69565217 0.        ]
+ The F1 score per activity names:[0.95040369 0.         0.         0.         0.         0.         0.67961165 0.         0.72727273 0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.8277067415864172,0.8638655462184874,0.844505554552804
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [0.9648711943793911, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.7526881720430108, 93],
+ 'tensor([[8.]])': [0.6956521739130435, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.03779052, 427],
+ 'tensor([[2.]])': [13.067279, 1],
+ 'tensor([[4.]])': [2.1911392, 1],
+ 'tensor([[6.]])': [2.078709, 93],
+ 'tensor([[8.]])': [6.0695863, 46],
+ 'tensor([[9.]])': [1.6096097, 27]}
+-----------------------------------------------------------------------
+{'tensor([[2.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[4.]]):tensor([0])tensor([1])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([0])': 7,
+ 'tensor([[6.]]):tensor([0])tensor([1])': 7,
+ 'tensor([[6.]]):tensor([0])tensor([2])': 3,
+ 'tensor([[6.]]):tensor([0])tensor([4])': 1,
+ 'tensor([[6.]]):tensor([0])tensor([5])': 3,
+ 'tensor([[6.]]):tensor([0])tensor([6])': 4,
+ 'tensor([[6.]]):tensor([0])tensor([7])': 3,
+ 'tensor([[6.]]):tensor([0])tensor([8])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([0])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([1])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([3])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([5])': 2,
+ 'tensor([[8.]]):tensor([0])tensor([6])': 1,
+ 'tensor([[8.]]):tensor([6])tensor([0])': 11,
+ 'tensor([[8.]]):tensor([6])tensor([1])': 5,
+ 'tensor([[8.]]):tensor([6])tensor([2])': 2,
+ 'tensor([[8.]]):tensor([6])tensor([5])': 2,
+ 'tensor([[8.]]):tensor([6])tensor([6])': 10,
+ 'tensor([[8.]]):tensor([6])tensor([7])': 3,
+ 'tensor([[8.]]):tensor([6])tensor([8])': 1,
+ 'tensor([[8.]]):tensor([6])tensor([9])': 3,
+ 'tensor([[9.]]):tensor([0])tensor([1])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([2])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([5])': 1,
+ 'tensor([[9.]]):tensor([0])tensor([6])': 3,
+ 'tensor([[9.]]):tensor([0])tensor([7])': 1,
+ 'tensor([[9.]]):tensor([6])tensor([0])': 5,
+ 'tensor([[9.]]):tensor([6])tensor([1])': 5,
+ 'tensor([[9.]]):tensor([6])tensor([5])': 3,
+ 'tensor([[9.]]):tensor([6])tensor([6])': 3,
+ 'tensor([[9.]]):tensor([6])tensor([8])': 2,
+ 'tensor([[9.]]):tensor([6])tensor([9])': 2}
+Turth: first prediction, second prediction
+total number of predictions:595,490
+ The accuracy of the model with the most probable event:0.8235294117647058
+ The accuracy of the model with the 2 most probable events:0.8352941176470589
+ The MAE (days) for the next event prediction is:1.1215639
+ The list of activity names:[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+ The precision per activity names:[0.89894737 0.         0.         0.         0.         0.         0.525      0.         0.         0.        ]
+ The recall per activity names:[1.         0.         0.         0.         0.         0.         0.67741935 0.         0.         0.        ]
+ The F1 score per activity names:[0.94678492 0.         0.         0.         0.         0.         0.5915493  0.         0.         0.        ]
+ The support per activity names:[427   0   1   0   1   0  93   0  46  27]
+ The weighted precision, recall, and F1-score are: 0.7271857585139319,0.8235294117647058,0.7719180611253276
+The recall of prediction per events (event, accuracy, frequency):
+{'tensor([[0.]])': [1.0, 427],
+ 'tensor([[2.]])': [0.0, 1],
+ 'tensor([[4.]])': [0.0, 1],
+ 'tensor([[6.]])': [0.6774193548387096, 93],
+ 'tensor([[8.]])': [0.0, 46],
+ 'tensor([[9.]])': [0.0, 27]}
+The accuracy of timestamp prediction MAE(day) (event, MAE, frequency):
+{'tensor([[0.]])': [0.15173449, 427],
+ 'tensor([[2.]])': [12.293051, 1],
+ 'tensor([[4.]])': [0.36569494, 1],
+ 'tensor([[6.]])': [2.8100905, 93],
+ 'tensor([[8.]])': [5.8646765, 46],
+ 'tensor([[9.]])': [2.1765792, 27]}
+-----------------------------------------------------------------------

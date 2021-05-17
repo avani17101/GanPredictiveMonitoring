@@ -58,6 +58,8 @@ class Input:
             #Reading a CSV file
             #data_augment = cls.__read_csv(path)
             data_augment = cls.__read_csv_massive(path)
+            print(data_augment)
+
         elif(path.split('.')[1] == 'pkl'):
             data_augment = pickle.load(open(path, "rb"))
             print("The head of augmented with remaining and duration times:\n", data_augment.head(10))
@@ -179,7 +181,7 @@ class Input:
         # apply our function to each chunk in the list
         results = pool.map(cls.func, chunks)        #Results is a list of dataframe [df1, df2,...df10]
         results = pd.concat(results)
-        #return results
+        return results
 
         name = path.split(".")[0].split("/")[-1]
         pickle.dump(results, open(name + ".pkl", "wb"))
@@ -232,6 +234,7 @@ class Input:
         '''
         data_augment is pandas dataframe created after reading CSV input by "read_csv()" method
         '''
+        print(data_augment)
         # Creating a desing matrix (one hot vectors for activities), End of line (case) is denoted by class 0
         unique_event = sorted(data_augment['ActivityID'].unique())
         cls.unique_event = [0] + unique_event

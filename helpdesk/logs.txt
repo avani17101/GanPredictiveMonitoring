@@ -1,0 +1,10 @@
+helpdesk
+The accuracy of the model with the most probable event: 0.8235294117647058
+The accuracy of the model with the 2 most probable events: 0.8352941176470589
+The MAE value is: 1.1215639
+
+
+BPI12
+The accuracy of the model with the most probable event: 0.8259421081376297
+The accuracy of the model with the 2 most probable events: 0.8324685963954124
+The MAE value is: 0.53664035

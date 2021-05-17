@@ -258,6 +258,9 @@ def model_eval_test(modelG, mode, obj):
         # Separating event and timestamp
         y_truth_timestamp = y_truth[:, :, 0].view(batch, 1, -1)
         y_truth_event = y_truth[:, :, 1].view(batch, 1, -1)
+    
+        print("y_truth_timestamp", y_truth_timestamp)
+        print("y_truth_event",y_truth_event)
 
         # Executing LSTM
         y_pred = rnnG(x[:, :, selected_columns])

@@ -74,31 +74,16 @@ def run(path, mode, prefix=4, epoch=1):
 
     elif(mode == 'event_timestamp_prediction'):
         obj = pr.Input()
-        # Preparing the input
-        obj.run(path=path, prefix=prefix, batch_size=5, mode=mode)
-
-        #Initializing a generator
-        rnnG = etp.LSTMGenerator(seq_len = obj.prefix_len, input_size = len(obj.selected_columns), batch = obj.batch, hidden_size= 2*len(obj.selected_columns) , num_layers = 2, num_directions = 1)
-        optimizerG = torch.optim.Adam(rnnG.parameters(), lr=0.0002, betas=(0.5, 0.999))
-
-        # Initializing a discriminator
-        rnnD = etp.LSTMDiscriminator(seq_len=obj.prefix_len + 1, input_size=len(obj.selected_columns), batch=obj.batch, hidden_size=2 * len(obj.selected_columns), num_layers=2, num_directions=1)
-        optimizerD = torch.optim.Adam(rnnD.parameters(), lr=0.0002, betas=(0.5, 0.999))
-
-        # Training and testing
-        etp.train(rnnD=rnnD, rnnG=rnnG, optimizerD=optimizerD, optimizerG=optimizerG, obj=obj, epoch=epoch)
-        # Loading the model from the validation
-        rnng_validation = torch.load(obj.path + "/rnnG(validation).m")
+        rnng_validation = torch.load("/home/avani/Desktop/IBM/GanPredictiveMonitoring/BPI2012/event_timestamp_prediction/prefix_4" + "/rnnG(validation).m")
         for i in range(3):
             etp.model_eval_test(modelG=rnnG, mode='test', obj=obj)
             etp.model_eval_test(modelG=rnng_validation, mode='test', obj=obj)
             obj.train_valid_test_index()
             obj.mini_batch_creation(batch=obj.batch)
 
-
-
-
     return obj
 
+run('dataset/BPI2012.csv', 'event_timestamp_prediction', prefix=6, epoch=1)
+# run('dataset/helpdesk.csv', 'event_prediction', prefix=4, epoch=1)
 
 
